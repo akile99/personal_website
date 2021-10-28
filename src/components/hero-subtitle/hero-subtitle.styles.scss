@@ -1,0 +1,27 @@
+.hero-content {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: table;
+
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.hero-subtitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.typed-cursor {
+  opacity: 1;
+
+  .typed-cursor--blink {
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;
+  }
+}
