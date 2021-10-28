@@ -1,0 +1,75 @@
+.navbar {
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5 rem;
+  padding-bottom: 0.5 rem;
+
+  ul {
+    li {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0;
+        white-space: nowrap;
+        transition: 0.3s;
+        letter-spacing: 0.4px;
+        position: relative;
+        text-transform: uppercase;
+
+        &:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2 px;
+          bottom: -6 px;
+          left: 0;
+          width: 0;
+          background-color: #fff;
+          visibility: hidden;
+          transition: all 0.3s ease-in-out 0s;
+        }
+      }
+    }
+
+    :hover {
+      color: #fff;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    list-style: none;
+    li {
+      white-space: nowrap;
+      padding: 10px 0 10px 30px;
+    }
+  }
+  li {
+    position: relative;
+  }
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5 rem 1 rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
