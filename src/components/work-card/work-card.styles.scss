@@ -1,0 +1,59 @@
+.work-box {
+  margin-bottom: 3rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #fff;
+  .image {
+    width: 100%;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+  }
+}
+.box-shadow,
+.paralax-mf,
+.service-box,
+.work-box,
+.card-blog {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.work-img {
+  display: block;
+  overflow: hidden;
+
+  img {
+    transition: all 1s;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.work-content {
+  padding: 2rem 3% 1rem 4%;
+
+  .w-more {
+    color: #4e4e4e;
+    font-size: 0.8rem;
+
+    .w-category {
+      color: #0078ff;
+    }
+  }
+  .w-like {
+    font-size: 2.5rem;
+    color: #0078ff;
+    float: right;
+    a {
+      color: #0078ff;
+    }
+  }
+}
+
+.w-title {
+  font-size: 1.2rem;
+}
